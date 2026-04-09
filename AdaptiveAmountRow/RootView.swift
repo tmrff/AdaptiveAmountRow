@@ -12,6 +12,7 @@ struct RootView: View {
     NavigationStack {
       List {
         NavigationLink("TruncationDetectionView", destination: TruncationDetectionView())
+        NavigationLink("AdaptiveAmountList", destination: AdaptiveAmountList())
       }
     }
   }

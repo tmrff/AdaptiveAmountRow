@@ -43,4 +43,6 @@ and presented at [iOS Conference Singapore](https://www.youtube.com/watch?v=VPfx
 
 | File | Purpose |
 |---|---|
-| `TruncationDetectionView.swift` | Demo of the raw truncation detection measurements with labelled output. |
+| `AdaptiveAmountList.swift` | `AdaptiveAmountRow` and its three layout implementations (`CompactAmountRowLayout`, `StandardAmountRowLayout`, `ExtendedAmountRowLayout`), plus `TruncationDetectingText`, `SizeHolder`, `LayoutMode`, and `LayoutTruncationStatus`. |
+| `TruncationDetectionView.swift` | Standalone demo of the raw truncation detection measurements with labelled diagnostic output. |
+| `RootView.swift` | Navigation root linking to both demos. |
